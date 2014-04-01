@@ -1,0 +1,161 @@
+header {
+	width: 960px;
+	height: 130px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+header a{
+	text-decoration: none;
+	color: black;
+}
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 130px;
+}
+.navbar {
+	width: 960px;
+	margin: auto;
+	text-align: center;
+	border-top: 1px solid black; 
+	border-bottom: 1px solid black;
+}
+.navbar li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	list-style: none;
+	display: inline-block;
+}
+.navbar a {
+	text-decoration: none;
+	color: black;
+	padding: 0 30px;
+	font-family: Tahoma;
+	text-transform: uppercase;
+}
+#last_item_menu {
+	padding-right: 50px;
+}
+
+.lang_menu1 a, .lang_menu2 a{
+	padding: 0;
+}
+.lang_menu1 a {
+	color: red;
+}
+.lang_menu2 a {
+	color: blue;
+}
+.lang_menu1:after {
+	content: "|";
+	padding-left: 5px; 
+	font-size: 20px;
+}
+.main_content {
+	width: 960px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: left;
+}
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 26px;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+h3:before, h3:after {
+	content: '-------------------------------------------------------';
+	color: white;
+	font-size: 14px;
+}
+.article {
+	height: 400px;
+	margin-top: 40px;
+	font-size: 18px;
+	border-bottom: 1px solid black;
+}
+.photo{
+	width: 400px;
+	height: 360px;
+	background-color: grey;
+	float: left;
+}
+.text {
+	width: 540px;
+	float: right;
+	margin-left: 20px;	
+}
+.text p {
+	margin-top: 30px;
+	line-height: 1.2em;
+}
+h4 {
+    font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	margin-bottom: 10px;
+    font-size: 36px;
+
+}
+#see_more {
+	margin-top: 40px;
+}
+#see_more a {
+	font-family: Tahoma;
+	font-size: 14px;
+	color: black;
+	padding: 5px;
+	text-decoration: none;
+	border: 1px solid grey;
+}
+#see_more a:hover {
+    color: white;
+    background-color: black;
+}
+.article:last-child {
+	border-bottom: none;
+}
+.footer {
+	font-family: Tahoma;
+	clear: both;
+	width: 960px;
+	margin: auto;
+	padding-top: 5px;
+	border-top: 1px solid grey;
+}
+.footer, .footer a, .footer_link a {
+	color: grey;
+	font-size: 12px;
+}
+.footer p{
+	float: left;
+}	
+.footer li {
+	list-style-type: none;
+	display: inline;
+	float: right;
+}
+.footer a {
+    text-decoration: none;
+    padding-right: 20px;
+}
+.footer a:before {
+	content: "|";
+	padding: 5px;
+}
+ .footer a:hover {
+	color: lavender;
+}
+.footer_link a{
+	padding-right: 0;
+	padding-left: 10px;
+}
+.footer_link a:before {
+	content: "|";
+}
